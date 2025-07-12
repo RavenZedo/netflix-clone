@@ -1,12 +1,34 @@
-# React + Vite
+# Netflix Clone 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Netflix homepage clone built using **ReactJS**, integrated with **Firebase Authentication** for login/signup and **TMDb API** to display real-time movie data. Clicking a movie shows its trailer using **YouTube player**.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 🔐 Login & Signup with Firebase
+- 🎥 Movie data from TMDb API
+- ▶️ Trailer playback on click
+- 🔄 Responsive UI with smooth layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
+- ReactJS
+- Firebase Auth
+- TMDb API
+- React YouTube
+- CSS / Tailwind (optional if used)
 
-## Expanding the ESLint configuration
+## 🧪 Live Demo
+Coming Soon or Add Your Deployed Link Here
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Setup Instructions
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/RavenZedo/netflix-clone.git
+cd netflix-clone
+
+# 2. Install dependencies
+npm install
+
+# 3. Add your Firebase and TMDb API credentials to .env
+
+# 4. Start the project
+npm start
